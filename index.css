@@ -1,0 +1,100 @@
+
+header {
+  font-family:  "Playfair Display", serif;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+
+body {
+  font-family:  "Playfair Display", serif;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 0;
+  margin: 10px 200px 10px 200px;
+  background-color: white;
+
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#navigation {
+  display: inline;
+  color: black;
+
+}
+
+#navigation span {
+  margin: 0 20px;
+}
+
+#AboutLink:hover {
+  color: red;
+}
+
+#EducationLink:hover {
+  color: red;
+}
+
+#ProjectsLink:hover {
+  color: red;
+}
+
+.school_img {
+  height: 50px;
+}
+
+.header {
+  color: black;
+  font-size: 40px;
+  font-family:  "Playfair Display", serif;
+}
+
+.sec {
+  width: 100%;
+  padding-top: 35px;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.linkedinbutton {
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.mailbutton {
+  width: 100px;
+  margin-left: 25px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.resumebutton {
+  width: 100px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.navlink {
+  color: black;
+  text-decoration: none;
+  display: inline;
+  opacity: 10;
+}
+
+.intro {
+  padding-bottom: 0px;
+}
+
+
+
+
+
+
