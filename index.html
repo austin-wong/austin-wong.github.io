@@ -1,46 +1,59 @@
 <!DOCTYPE html>
+<div id="wrapper">
+
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible">
 	<title>Austin Wong Portfolio</title>
 	<meta name="description" content="Austin Wong Portfolio">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sue+Ellen+Francisco|Josefin+Sans:700|Amatic+SC:700" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="index.css">
 </head>
 
 <header>
-	<div class="intro">
-		<h1>austin wong</h1>
-	</div>
-	<div id="navigation">
-        <a class="navlink" id="AboutLink" href="#About_Me">about me</a>
-        <span>  </span>
-        <a class="navlink" id="EducationLink" href="#Education">education</a>
-        <span>  </span>
-        <a class="navlink" id="ProjectsLink" href="#Projects">projects</a>
+	<div class="intro" id="myHeader">
+		<h1>Austin Wong</h1>
+		<div id="navigation">
+        	<a class="navlink" id="AboutLink" href="#About_Me"><span>About Me</span></a>
+        	<a class="navlink" id="EducationLink" href="#Education"><span>Education</span></a>
+        	<a class="navlink" id="ProjectsLink" href="#Projects"><span>Projects</span></a>
+    	</div>
     </div>
 </header>
+
 <body>
 	<!-- Site Body -->
 	<div id="site_body" class="container invisible">
 		<!-- About Me -->
     	<div id="About_Me" class="sec">
-      		<h2 class="header">about me</h2>
+      		<h2 class="header">About Me</h2>
       		<!-- Links -->
       		<p id="buttons">
       			<a href="https://www.linkedin.com/in/austin-w-3ab977139/" target="blank"><img src="images/linkedin.gif" alt="linkedin icon" title="linkedin" class="linkedinbutton" /></a>
       			<a href="mailto:wongau@cs.washington.edu" target="blank"><img src="images/email.gif" alt="email icon" title="email" class="mailbutton" /></a>
-      			<a href="./downloads/resume.pdf" download><img src="images/resume.gif" alt="resume icon" title="resume" class="resumebutton" /></a>
+      			<a href="./downloads/AustinWong_Resume.pdf" download><img src="images/resume.gif" alt="resume icon" title="resume" class="resumebutton" /></a>
+      		
+      		<p>
+      			<br>Hi, I'm Austin ― a student at the University of Washington Allen School of Computer Science and Engineering.
       		</p>
-      		<p><br>Hi, I'm Austin ― a student at the University of Washington Allen School of Computer Science and Engineering. Last year I conducted research in the department of Human Centered Design and Engineering. I'm passionate about Human-Computer Interaction and am seeking Summer 2019 internship opportunities in Full-Stack or Backend to broaden my horizons.  <br>
+
+      		<p>
+      			Last year I conducted research in the department of Human Centered Design and Engineering. I'm passionate about <br>
+      			Human-Computer Interaction and am seeking Summer 2019 internship opportunities in Full-Stack or Backend <br> 
+      			to broaden my horizons.  
+      		</p>
+      			Some other things I enjoy include photography and film, and I hope to one day work at the intersection of my passions.
+      		<p>
+
       	</div>
       	<!-- Education -->
       	<div id="Education" class="sec">
-      		<h2 class="header">education</h2>
+      		<h2 class="header">Education</h2>
       		<img src="./images/UW_Logo.png" class="school_img"/>
       		<div class="school_header">
-       		 	<p>2018-2021, Bachelors in Computer Science</p>
+       		 	<p>2018-2021, B.S in Computer Science</p>
       		</div>
       		<p><strong>Coursework</strong></p>
       		<ul class="content">
@@ -48,17 +61,51 @@
       			<li>CSE 351: The Hardware-Software Interface</li>
       			<li>CSE 331: Software Design and Implementation</li>
       		</ul>
+
       	<!-- Projects -->
       	<div id="Projects" class="sec">
-      		<h2 class="header">projects</h2>
-        </div>
-        <ul class="content">
-          <li>ReactionBot</li>
-          <li>To Be Continued...</li>
-      </div>
+      		<h2 class="header">Projects</h2>
+      		<!-- ReactionBot -->
+        	<div class="project" style="margin-top: 25px;">
+            	<div class="projectContent">
+            	<h4 class="projectHeader">ReactionBot</h4>
+            	<p class="projectBody">
+            		During my time at UW HCDE, we built a Slack chatbot in Node.js and Swift that captures <br>
+            		user facial expression and automatically attaches emoji to text messages. <br>
+            	</p>
+            	<img src="images/ReactionBot.png" alt ="ReactionBot Picture" class="ReactionBot">
+            	<p><br> We researched the implications of this system in text-based communication and submitted the research paper <br>
+            	<a href="./downloads/CSCW2018-reactionbot.pdf"><i>"ReactionBot: Exploring the Effects of Expression-Triggered Emoji in Text Messages"</i></a> to CSCW 2018. <br>
+            	</p>
+            	</div>
+       	 	</div>
+
+       	 	<!-- in progress 
+
+       	 	<div class="project" style="margin-top: 25px;">
+       	 		<div class="projectContent">
+       	 			<h4 class="projectHeader">Scratch Note Taking</h4>
+       	 			<p class="projectBody">
+       	 				A full-stack serverless web application that allows users to sign up and login to an account to log notes
+       	 			</p>
+       	 			<img src="images/Scratch.png" alt ="Scratch Picture" class="Scratch">
+       	 		</div>
+       	 	</div>
+
+			-------->
+
+       	 </div>
 
 
 
-	
+
+
+          
+
+
+<script type="text/javascript" src="./index.js"></script>
+
 </body>
 </html>
+
+</div>

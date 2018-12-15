@@ -1,25 +1,32 @@
 
 header {
-  font-family:  "Playfair Display", serif;
+  font-family:  "Amatic SC", cursive;
   font-weight: bold;
-  font-size: 28px;
+  font-size: 40px;
   text-align: center;
+  margin-top: 285px;
+  margin-bottom: 285px
 }
 
 body {
-  font-family:  "Playfair Display", serif;
+  font-family:  "Open Sans Condensed", sans-serif;
   font-weight: 300;
   font-size: 20px;
-  padding: 0;
-  margin: 10px 200px 10px 200px;
   background-color: white;
-
 }
 
 ul {
   list-style-type: none;
   margin-left: 0;
   padding-left: 0;
+}
+
+a {
+  color: purple;
+}
+
+li {
+  margin: 0 0 10px 0;
 }
 
 #navigation {
@@ -45,13 +52,14 @@ ul {
 }
 
 .school_img {
-  height: 50px;
+  height: 75px;
+
 }
 
 .header {
   color: black;
-  font-size: 40px;
-  font-family:  "Playfair Display", serif;
+  font-size: 50px;
+  font-family:  "Amatic SC", serif;
 }
 
 .sec {
@@ -63,35 +71,54 @@ ul {
 
 
 .linkedinbutton {
-  width: 50px;
-  margin-left: 20px;
-  margin-right: 3px;
-  vertical-align: middle;
-}
-
-.mailbutton {
-  width: 100px;
+  width: 47px; /* 63 */
   margin-left: 25px;
   margin-right: 3px;
   vertical-align: middle;
 }
 
+.mailbutton {
+  width: 100px; /* 133 */
+  margin-left: 30px;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
 .resumebutton {
-  width: 100px;
+  width: 100px; /* 133 */
   margin-right: 3px;
   vertical-align: middle;
 }
 
 .navlink {
-  color: black;
+  color: purple;
   text-decoration: none;
-  display: inline;
+  display: inline-block;
   opacity: 10;
+
 }
 
 .intro {
   padding-bottom: 0px;
 }
+
+.ReactionBot {
+  width: 650px;
+  vertical-align: middle;
+  padding-top: 25px;
+}
+
+/*
+
+#myHeader.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+}
+*/
+
+
 
 
 
