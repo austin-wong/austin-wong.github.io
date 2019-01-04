@@ -2,7 +2,7 @@
 header {
   font-family:  "Amatic SC", cursive;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   margin-top: 285px;
   margin-bottom: 285px
@@ -58,7 +58,7 @@ li {
 
 .header {
   color: black;
-  font-size: 50px;
+  font-size: 60px;
   font-family:  "Amatic SC", serif;
 }
 
